@@ -40,33 +40,25 @@ This project focuses on analyzing customer churn in the banking sector and build
 ---
 
 ## 📈 Key Insights:
-🔹52% of patients had hypertension
-
-🔹 Majority were in the 26-45 age group
-
-🔹 Most hypertensive patients were not on any medication.
-
-🔹 Major contributors to hypertension included: high stress, age, salt intake, obesity,family history, low exercise, short sleep
-
+- Churn by Age: Higher coefficient (0.50) suggests age is positively correlated with churn rate. 
+ - Churn by Geograohy: Germany shows significantly higher churn compared to spain and France, suggesting potential issue specific to the region.
+ - Churn by Average Balance:Customers with higher average balance are more likely to churn, indicating that higher value customers may require targeted retention strategies. 
+  - Churn by Number of Products: Lower product holdings (1-2 products) are assoicated with lower churn rates, while higher product holdings (3-4 products) correlate with significantly elevated churn. This trend may imply that customers with more products experience unmet needs or service issues, warranting targeted retention strategis for these segments.
+  - Churn by Tenure Analysis: Although the churn rate decreases modestly with longer Tenure, churn remains present across all tenure level.The slight improvement at 7+ years suggests that further incentives and loyalty programs could stablize and reduce chum more effectively for long standing customers.
+  - Churn by Gender: Female customers show a significantly higher chum rate than the male customers (25.05% vs. 16.47%). This indicates a potential need for gender specific engagement strategies to address the higher churn risk among female customers. 
+  - Churn by Satisfaction Score Analysis: The similar churn rates across satisfaction scores suggest that while satisfaction impacts churn, other factors may be play a larger role. However, targeted improvements for score 2 and 4 may help reduce churn within those segments.
+  - Churn by Card Type: Diamond cardholders have the highest churn rate (21.78%) whereas Gold cardholders have the lowest churn rate(19.269%). This suggests a potential need to reassess benefit or engagement strategies for higher tiers card types to reduce churn.
+  - Churn by Credit Scores Analysis: Customers with lower credit scores are more likely to chum. This relationship could imply that financial stability as reflected by a higher credit score, may increase customer retention. Targeted strategies for customers with lower credit scores might help in reducing churn rate further.
+  - Churn by Complaint: This sharp contrast highlight that customers who complain are highly likely to churn. The data suggests that addressing complaints might significantly reduce churn rates. Further investigation into the nature of these complaints could provide actionable insights for retention strategies.
 
 ---
 
 ## 📈 Skill Demonstrated:
- - Microsoft Excel
- -  IF and AND formula to categorize age, salt intake, stress, and BMI, creating a foundation for meaningful analysis.
- - Power Pivot (Data Model)
-  - Pivot Tables & Charts
-  - Slicers  
-  - Conditional Formatting
-  - DAX (basic usage in calculated fields)
+ -  Advanced Excel functions (INDEX-MATCH, XLOOKUP, IF, AVG), CORREL for relationship analysis, CALCULATE, DAX Measures.
 ---
 
 ## 🔗 Recommendations:
-1.  Promote preventive screenings for individuals over 40 years.
-2.  Launch awareness programs targeting lifestlye modification.
-3.  Encourage regular monitoring of glucose and cholesterol to manage early risks.
-4.  Integrate the dashboard into hospital management systems for real-time monitoring.
-5.  Explore personalized health interventions based on predictive modeling results.
+1.  The data suggests that addressing complaints might significantly reduce churn rates. Further investigation into the nature of these complaints could provide actionable insights for retention strategies.
 ---
 
 ## Contact:
